@@ -1,0 +1,19 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-size: cover;
+    background-image: url(http://ri.uaemex.mx/bitstream/handle/20.500.11799/66806/fondo%20de%20escritorio%203.jpg?sequence=5&isAllowed=y)
+
+}
+    .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+    margin-top: 3%;
+}
+.btn{
+    margin-bottom: 15px;
+    background-color: chocolate;
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0">
+  <servlet>
+    <description></description>
+    <display-name>CntServlet</display-name>
+    <servlet-name>CntServlet</servlet-name>
+    <servlet-class>Vianco_lab.Controlador.CntServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CntServlet</servlet-name>
+    <url-pattern>/CntServlet</url-pattern>
+  </servlet-mapping>
+  <display-name>ViancoProject</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>AltaPersonas</display-name>
+    <servlet-name>AltaPersonas</servlet-name>
+    <servlet-class>Vianco_lab.Controlador.AltaPersonas</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AltaPersonas</servlet-name>
+    <url-pattern>/AltaPersonas</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Doc5</display-name>
+    <servlet-name>Doc5</servlet-name>
+    <servlet-class>Vianco_lab.Controlador.Doc5</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Doc5</servlet-name>
+    <url-pattern>/Doc5</url-pattern>
+  </servlet-mapping>
+</web-app>

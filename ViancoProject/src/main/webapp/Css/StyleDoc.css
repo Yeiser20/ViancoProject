@@ -1,0 +1,126 @@
+@charset "UTF-8";
+body{
+    background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://vianco.uaemex.mx/wp-content/uploads/2021/03/vianco01.jpg);
+}
+
+.Doc{
+    margin-left: 50%;
+    margin: 0 auto;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    background-color: white;
+    width: 850px;
+    contain: layout;
+    padding: 100px;
+
+}
+.tabla{
+    margin-left: 15%;
+    text-align: justify;
+}
+input,textarea{
+    align-items: center;
+    width: 200px;
+    outline: none ;
+    text-align: center;
+}
+p{
+    margin-left: 0%;
+}
+h1{
+    text-align: center;
+}
+.p1{
+    text-align: center;
+}
+.Evaluador{
+    width: 320px;
+}
+.eval{
+    text-align: left;
+}
+.titu{
+    text-align: left;
+    margin-left: 0%;
+}
+.Proyec{
+    margin-left: 0%;
+    width: 340px;
+}
+.nombreL{
+    margin-left: 0%;
+    width: 350px;
+}
+.botones{
+    display: flex;
+}
+.botons{
+    margin-left: 35%;
+    display: inline;
+    block-size: 50px;
+    border-radius: 5px;
+     border: 2px solid red;
+    background-color: aliceblue;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+.boton{
+    margin-left: 10%;
+    display: inline;
+    block-size: 50px;
+    border-radius: 5px;
+     border: 2px solid red;
+    background-color: aliceblue;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+.boton1{
+    margin-left: 20%;
+    margin-right: 10%;
+    display: inline;
+    block-size: 50px;
+    border-radius: 5px;
+     border: 2px solid red;
+    background-color: aliceblue;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+
+.boton:hover{
+    background-color: red;
+    font-family: 'Arial';
+    font-size: 20pt;
+    color: aliceblue;
+   }
+   .boton1:hover{
+    background-color: red;
+    font-family: 'Arial';
+    font-size: 20pt;
+    color: aliceblue;
+   }
+   
+   .botons:hover{
+    background-color: red;
+    font-family: 'Arial';
+    font-size: 20pt;
+    color: aliceblue;
+   }
+   
+   
+   .area{
+    display: flex;
+    margin: 0 auto;
+    height: 100px;
+    width: 650px;
+
+   }
+   h3{
+    text-align: center;
+   }
